@@ -1,0 +1,25 @@
+.painel-sobre {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px 0 50px 0;
+    
+}
+
+.painel-sobre .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    color: #ffc506;
+}
+
+.painel-sobre .subtitle {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.painel-sobre .descricao-sobre {
+    font-size: 15px;
+    line-height: 25px;
+}
+
