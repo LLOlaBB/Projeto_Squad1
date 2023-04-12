@@ -1,25 +1,47 @@
 .painel-sobre {
-    text-align: center;
+    text-align: left;
     background-color: black;
     color: white;
-    padding: 50px 0 50px 0;
-    
+    padding: 30px 0 30px 0;
+    margin-left: auto;
 }
 
 .painel-sobre .title {
     font-size: 20px;
     margin-bottom: 16px;
     text-transform: uppercase;
+    text-align: center;
     color: #ffc506;
 }
 
 .painel-sobre .subtitle {
     font-size: 15px;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .painel-sobre .descricao-sobre {
     font-size: 15px;
     line-height: 25px;
+    width: 40%; 
+    text-align: center;
 }
+
+.descricao-sobre {
+    display: inline-block;
+}
+
+p {
+    align-items: center;
+    display: inline-block;
+    padding-right: 40px;
+
+}
+
+.video {
+    margin: 2em auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
 
