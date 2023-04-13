@@ -68,6 +68,25 @@
                     </div>
             </div>
         <section>
+             <div>
+                <h1>Formulário</h1>
+                    <form action="mailto:diegobarreto1989@hotmail.com" method="post" enctype="text/plain">
+                        <label for="motivo">Motivo:</label>
+                        <select id="motivo" name="motivo">
+                            <optgroup label="Selecione">
+                                <option value="Selecione">Selecione</option>
+                                <option value="Pessoa física">Pessoa Física</option>
+                                <option value="CNPJ">Empresa</option>
+                            </optgroup>
+         
+                        </select>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+            </div>
         <script>"jquery.js"</script>
         <script>"script.js"</script>
     </body>
