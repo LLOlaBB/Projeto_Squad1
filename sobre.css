@@ -6,7 +6,8 @@
     margin-left: auto;
 }
 
-.painel-sobre .title {
+.title {
+    background-color: black;
     font-size: 20px;
     margin-bottom: 16px;
     text-transform: uppercase;

@@ -31,4 +31,26 @@ textarea {
     font-size: 15px;
     line-height: 25px;
 }
+/* Enviar */
+
+.center button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    border-radius: 20px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+    border: 3px solid #ffc506;
+}
+
+.center button:hover {
+    border: 3px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+} 
+
 
