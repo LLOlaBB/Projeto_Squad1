@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: Verdana;
+}
+
+body{
+	width:100%;
+	height: 100vh;
+	display: flex;
+	allign-items:center;
+	justify-content: center;
+}
+
+	section{
+		width:60%;
+		max-width: 600px;
+	}
+
+	section details summary{
+		background-color: black;
+		padding:2%;
+		border-bottom: 2px solid #2828;
+		color: #fff;
+		font-weight: 700;
+	}
+
+	section details p{
+		background-color: #0000FF;
+		color: #000FF;
+		padding: 2%;
+	}
+	
+	.logo{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-size: auto;
+
+    
