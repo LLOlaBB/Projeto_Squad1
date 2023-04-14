@@ -18,13 +18,14 @@ body{
         background-color: black;
         margin-left: 15%;
         margin-right: 15%;
+        padding-top: 80px;
 	}
 
 
 	#FAQ details summary{
 		background-color: black;
 		padding:2%;
-		border-bottom: 2px solid #2828;
+		border-bottom: 2px solid rgba(34, 46, 136, 0.533);
 		color: #fff;
 		font-weight: 700;
 	}
