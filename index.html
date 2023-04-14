@@ -24,9 +24,9 @@
         <nav>
             <ul class="list-menu">
                 <li><a href="#">home</a></li>
-                <li><a href="#painel-sobre">sobre nos</a></li>
                 <li><a href="#Eventos">eventos</a></li>
-                <!-- <li><a href="#">galeria</a></li> -->
+                <li><a href="#painel-sobre">sobre nos</a></li>
+                <!-- se precisar mudar a ordem do menu -->
                 <li><a href="#FAQ">faq</a></li>
                 <li><a href="#cont">contato</a></li>
                 <li><a href="https://www.instagram.com/equsm3/" target="_blank"><i class="bi bi-instagram"></i></a></li>
@@ -42,7 +42,7 @@
             <h2>Clique nos botões abaixo! Faça sua inscrição!</h2>
 
             <div class="btn">
-                <button class="hipismo" ><a href="#cont">hipismo</a></button>
+                <button class="hipismo"><a href="#cont">hipismo</a></button>
                 <button class="equoterapia"><a href="#cont">equoterapia</a></button>
                 <button class="equitação"><a href="#cont">equitação lúdica</a></button>
             </div>
@@ -56,19 +56,25 @@
             <input type="radio" name="xx" id="x1">
             <label for="x3"></label>
             <div class="banner_box">
-                <img src="img/exemplo banner.png" alt="teste imagem">
+                <a href="#cont">
+                    <img src="img/exemplo banner.png" alt="Evento">
+                </a>
             </div>
             <input type="radio" name="xx">
             <input type="radio" name="xx" id="x2">
             <label for="x1"></label>
             <div class="banner_box">
-                <img src="img/exemplo banner2.png" alt="teste imagem">
+                <a href="#cont">
+                    <img src="img/exemplo banner2.png" alt="Evento">
+                </a>
             </div>
             <input type="radio" name="xx">
             <input type="radio" name="xx" id="x3">
             <label for="x2"></label>
             <div class="banner_box">
-                <img src="img/exemplo banner3.png" alt="teste imagem">
+                <a href="#cont">
+                    <img src="img/exemplo banner3.png" alt="Evento">
+                </a>
             </div>
         </div>
     </div>
@@ -142,12 +148,11 @@
                 </select>
                 <legend for="email">E-mail:</legend>
                 <textarea type="text" id="email" name="email" rows="1"></textarea>
-                <legend for="mensagem">Mensagem:<legend>
-                        <textarea id="mensagem" name="mensagem"></textarea>
-                        <div class="center">
-                            <button  type="submit" value="Enviar">Enviar</button>
-                        </div>
-                        
+                <legend for="mensagem">Mensagem:</legend>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                <div class="center">
+                    <button type="submit" value="Enviar">Enviar</button>
+                </div>
             </form>
         </div>
     </section>

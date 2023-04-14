@@ -18,7 +18,7 @@ body{
         background-color: black;
         margin-left: 15%;
         margin-right: 15%;
-        padding-top: 80px;
+        padding-top: 70px;
 	}
 
 
@@ -28,6 +28,7 @@ body{
 		border-bottom: 2px solid rgba(34, 46, 136, 0.533);
 		color: #fff;
 		font-weight: 700;
+        cursor: pointer;
 	}
 
 	#FAQ details p{
