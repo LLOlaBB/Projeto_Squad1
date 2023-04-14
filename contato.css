@@ -9,14 +9,26 @@
 .form {
     font-size: 20px;
     margin-bottom: 16px;
-    text-transform: uppercase;
     color: white;
+}
+
+.form select{
+    border-radius: 20px;
+    background-color: rgb(8, 47, 174);
+    color: #ffc506;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 textarea {
     font-size: 15px;
+    border-radius: 20px;
     margin-bottom: 16px;
     resize: none;
+    background-color: rgb(8, 47, 174);
+    color: #ffc506;
+    padding: 10px;
 }
 
 #email {
