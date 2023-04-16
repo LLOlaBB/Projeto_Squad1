@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+footer {
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-footer {
+  max-width: 1400px;
+  padding: 0 4%;
+  margin: auto;
+}
+
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 22px;
+  background-color: black;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  text-transform: up;
+}
+
+.footer-col ul li {
+  margin: 10px 0;
+}
+
+.linkedin-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkedin-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  
+}
+
+.linkedin-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  padding: 5px;
+  width: 80%;
+}
+
+.linkedin-list a:hover {
+  transform: translateX(5px);
+}
+
+.linkedin-list i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.linkedin-list li:nth-child(odd) a {
+  background-color: rgb(17, 17, 17);
+}
+
+.linkedin-list li:nth-child(even) a {
+  background-color: #333131;
+  color: rgb(208, 203, 203);
+}
+
+.fa-linkedin {
+  font-size: 220%;
+  background-color: rgb(8, 2, 47);
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
+.logo {
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#meta {
+  background-color: #0b3080;
+}
+
+#entertech {
+  background-color: #7977f4;
+}
