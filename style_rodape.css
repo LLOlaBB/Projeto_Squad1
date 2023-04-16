@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 footer {
-  background-color: black;
+  background-color: rgba(7, 15, 73);
   padding: 50px 0;
-  color: white;
+  color: #ffc506;
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
 }
 
 .container-footer {
@@ -18,13 +19,12 @@ footer {
 }
 
 .footer-col {
-  width: 25%;
+  width: 20%;
   padding: 0 15px;
 }
 
 .footer-col h4 {
   font-size: 22px;
-  background-color: black;
   margin-bottom: 20px;
   font-weight: 500;
   position: relative;
@@ -45,13 +45,13 @@ footer {
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
-  text-align: center;
-  border-radius: 50%;
+  text-align: left;
+  color: white;
   
 }
 
 .linkedin-list a {
-  color: #fff;
+  color: white;
   text-decoration: none;
   transition: all 0.2s ease;
   padding: 5px;
@@ -68,24 +68,27 @@ footer {
 }
 
 .linkedin-list li:nth-child(odd) a {
-  background-color: rgb(17, 17, 17);
+  background-color: #0b3080;
+  border-radius: 5px;
 }
 
 .linkedin-list li:nth-child(even) a {
-  background-color: #333131;
-  color: rgb(208, 203, 203);
+  background-color: #7977f4;
+  border-radius: 5px;
 }
 
 .fa-linkedin {
   font-size: 220%;
-  background-color: rgb(8, 2, 47);
+  background-color: rgb(6, 1, 32);
   padding: 5px 8px;
+  color: white;
   border-radius: 50%;
 }
 
 .logo {
   padding: 15px;
-  border-radius: 50%;
+  width: 150px;
+  border-radius: 25px;
 }
 
 #meta {
@@ -94,4 +97,26 @@ footer {
 
 #entertech {
   background-color: #7977f4;
+}
+
+.medias-social {
+  color: white;
+}
+
+.redes a {
+  background-color: rgba(7, 15, 73)!important;
+  text-transform: none!important;
+  color: white;
+  width: 80%;
+}
+
+.contato {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  column-count: 2;
+
+}
+
+.size-col {
+  width: 50%!important;
 }
