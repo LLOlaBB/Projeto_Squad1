@@ -16,7 +16,7 @@
     height: 100%;
     pointer-events: none;
     z-index: 10;
-    background: url('/img/arrow_right.png') center center no-repeat;
+    background: url('./img/arrow_right.png') center center no-repeat;
     background-size: 60%;
 }
 .prev_arrow{
@@ -27,7 +27,7 @@
     height: 100%;
     pointer-events: none;
     z-index: 100;
-    background: url('/img/arrow_left.png') center center no-repeat;
+    background: url('./img/arrow_left.png') center center no-repeat;
     background-size: 60%;
 }
 .banner{
